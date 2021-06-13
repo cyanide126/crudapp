@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tritonhacks crud</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/deletePost.js" defer="defer"></script>
+    <script src="scripts/updatePost.js" defer="defer"></script>
+</head>
+<body>
+    <main>
+        <h1>TRITONHACKS CRUD</h1>
+
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+            <li>
+            <label for="title">Title:</label>
+            <input type="text" id="t_title" name="f_title">
+            </li>
+            <li>
+            <label for="summary">Summary:</label>
+            <textarea id="ta_summary" name="f_summary">Default Text</textarea>
+            </li>
+            <li class="button">
+                <button id="cp_btn" type="button">Create Post</button>
+            </li>
+            </ul>
+       </form>
+        
+        <ul id="post-list">
+            <!-- This is where the posts go -->
+            
+        </ul>
+    </main>
+</body>
+</html>

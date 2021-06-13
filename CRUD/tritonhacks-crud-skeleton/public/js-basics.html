@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File to get familiar with JavaScript</title>
+</head>
+<body>
+    
+    <!--
+    <h1>JavaScript Practice</h1>
+    <p>Open up the console to see what our script is doing!</p>
+    <script>
+
+        /**
+         * A simple function that prints all the numbers up until the provided
+         * number
+         */
+        function printNums(num) {
+
+            // For loop that goes through all the numbers starting at 0
+            for (let i = 0; i <= num; i++) {
+
+                // If we reach the last number, then print the number and return it
+                if (i === num) {
+                    console.log('This is the last number: ' + i);
+                    return num;
+                }
+
+                // Print the current number
+                console.log('This is not the last number: ' + i)
+            }
+        }
+
+        // Call printNums and store the return value in the lastNum variable
+        let lastNum = printNums(10);
+
+        // Print the returned last number stored in lastNum
+        console.log(`printNums returned the last number: ${lastNum}`);
+    
+        /**
+         * This is a template literal and is a handy way of combining variables
+         * and strings. The main difference is that a template literal uses the 
+         * backtick ` which is located right above the tab key. 
+         * 
+         * This allows us to embed JavaScript code into our strings instead of
+         * concatenating strings and other objects which can get messy.
+         * 
+         * See the examples below for more :P
+         */
+
+        // Differnce between `` and ''
+        let tempNum = 1;
+        console.log('string literal example (' + tempNum + ')');
+        console.log(`template literal example (${tempNum})`);
+
+        /*
+        The syntax used above is an alternative to adding/concatenating strings
+        and variables together, and the syntax is known as a template 
+        literal/string. The basic difference between template strings and 
+        regular strings is that template strings use the ` character instead of
+        the ' character. Then you can use the ${} syntax inside of the template
+        string to represent a placeholder for a variable that will later be 
+        filled in by the variable's value. There's more advanced features that
+        you can make use of through template strings, but this is the basic
+        idea that you'll want to know for this starter kit.
+        */
+    
+    </script>
+    -->
+</body>
+</html>
